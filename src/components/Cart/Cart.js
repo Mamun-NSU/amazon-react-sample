@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Cart.css';
 
+// this is cart Component
 const Cart = (props) => {
     const { cart } = props;
     console.log(props.children);
